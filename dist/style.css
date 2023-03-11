@@ -1,0 +1,247 @@
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/base.scss ***!
+  \*************************************************************************************************************/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1.25;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+.container {
+  width: 100%;
+  padding: 0 100px;
+  max-width: 1440px;
+  min-width: 375px; }
+  @media (max-width: 1279px) {
+    .container {
+      padding: 0 20px; } }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05); }
+  @media (max-width: 767px) {
+    .header {
+      width: 100%;
+      flex-wrap: wrap;
+      height: 105px;
+      gap: 0;
+      align-content: space-between;
+      padding: 0; } }
+  .header__label__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer; }
+    @media (max-width: 767px) {
+      .header__label__link {
+        padding: 17px 21px; } }
+  .header__search {
+    padding: 12px 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px; }
+    @media (max-width: 767px) {
+      .header__search {
+        order: 1; } }
+    .header__search__imgSearch {
+      width: 16px;
+      height: 16px; }
+    .header__search__input {
+      box-sizing: border-box;
+      width: 100%; }
+      .header__search__input::placeholder {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.01em;
+        color: #BBC4D6; }
+  .header__account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 20px;
+    gap: 10px;
+    border-left: 1px solid #EBEBF1;
+    cursor: pointer; }
+    @media (max-width: 767px) {
+      .header__account {
+        border: none;
+        padding: 0 20px 0 0; } }
+    .header__account__user {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 120%;
+      text-align: right;
+      letter-spacing: 0.01em;
+      color: #768298; }
+      @media (max-width: 767px) {
+        .header__account__user {
+          display: none; } }
+    .header__account__img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; }
+      @media (max-width: 767px) {
+        .header__account__img {
+          display: none; } }
+    .header__account__mobile {
+      display: none; }
+      @media (max-width: 767px) {
+        .header__account__mobile {
+          display: flex; } }
+
+.main {
+  padding-top: 70px;
+  width: 100%; }
+  @media (max-width: 1279px) {
+    .main {
+      padding: 70px 20px; } }
+  .main__head {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #121920; }
+    @media (max-width: 1280px) {
+      .main__head {
+        font-size: 28px; } }
+  .main__partners {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    gap: 30px;
+    flex-wrap: wrap; }
+    @media (max-width: 1280px) {
+      .main__partners {
+        gap: 20px; } }
+    @media (max-width: 767px) {
+      .main__partners {
+        flex-direction: column;
+        padding: 20px 0; } }
+  .main__partner {
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 287.5px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px; }
+    .main__partner:hover {
+      box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03); }
+    @media (min-width: 768px) and (max-width: 1279px) {
+      .main__partner {
+        width: 229px; }
+        .main__partner__link__image#first_card {
+          width: 114px;
+          height: 61px; }
+        .main__partner__link__image#second_card {
+          width: 100%;
+          padding: 0 22.5px; }
+        .main__partner__link__image#third_card {
+          height: 74px; }
+        .main__partner__link__image#fourth_card {
+          width: 175px;
+          height: 70px; }
+        .main__partner__link__image#fifth_card {
+          width: 100%;
+          padding: 0 21px; }
+        .main__partner__link__image#sixth_card {
+          width: 143px;
+          height: 74px; }
+        .main__partner__link__image#seventh_card {
+          height: 30px; }
+        .main__partner:hover {
+          box-shadow: none; } }
+    @media (max-width: 767px) {
+      .main__partner {
+        width: 100%;
+        height: 140px; }
+        .main__partner__link__image#first_card {
+          width: 145px;
+          height: 82px; }
+        .main__partner__link__image#second_card {
+          padding: 48px 50px; }
+        .main__partner__link__image#third_card {
+          width: 100px;
+          height: 75px; }
+        .main__partner__link__image#fourth_card {
+          width: 194px;
+          height: 78px; }
+        .main__partner__link__image#fifth_card {
+          padding: 46px 51px; }
+        .main__partner__link__image#sixth_card {
+          width: 141px;
+          height: 74px; }
+        .main__partner__link__image#seventh_card {
+          padding: 0 44px; }
+        .main__partner:hover {
+          box-shadow: none; } }
+

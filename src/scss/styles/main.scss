@@ -1,0 +1,142 @@
+.main {
+    padding-top: 70px;
+    width: 100%;
+
+    @media (max-width: 1279px) {
+        padding: 70px 20px;
+    }
+
+    &__head {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 160%;
+        text-transform: uppercase;
+        color: #121920;
+
+        @media(max-width: 1280px) {
+            font-size: 28px;
+        }
+    }
+
+    &__partners {
+        display: flex;
+        align-items: center;
+        padding: 30px 0;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        @media (max-width: 1280px) {
+            gap: 20px;
+        }
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+            padding: 20px 0;
+        }
+    }
+
+    &__partner {
+        cursor: pointer;
+        box-sizing: border-box;
+        display: inherit;
+        align-items: center;
+        justify-content: center;
+        width: 287.5px;
+        height: 120px;
+        background: #FFFFFF;
+        border: 1px solid #EBEBF1;
+        border-radius: 5px;
+
+        &:hover {
+            box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+        }
+
+        @media (min-width: 768px) and (max-width: 1279px) {
+            width: 229px;
+
+            &__link__image {
+                &#first_card {
+                    width: 114px;
+                    height: 61px;
+                }
+
+                &#second_card {
+                    width: 100%;
+                    padding: 0 22.5px;
+                }
+
+                &#third_card {
+                    height: 74px;
+                }
+
+                &#fourth_card {
+                    width: 175px;
+                    height: 70px;
+                }
+
+                &#fifth_card {
+                    width: 100%;
+                    padding: 0 21px;
+                }
+
+                &#sixth_card {
+                    width: 143px;
+                    height: 74px;
+                }
+
+                &#seventh_card {
+                    height: 30px;
+                }
+            }
+
+            &:hover {
+                box-shadow: none;
+            }
+        }
+
+        @media (max-width: 767px) {
+            width: 100%;
+            height: 140px;
+
+            &__link__image {
+                &#first_card {
+                    width: 145px;
+                    height: 82px;
+                }
+
+                &#second_card {
+                    padding: 48px 50px;
+                }
+
+                &#third_card {
+                    width: 100px;
+                    height: 75px;
+                }
+
+                &#fourth_card {
+                    width: 194px;
+                    height: 78px;
+                }
+
+                &#fifth_card {
+                    padding: 46px 51px;
+                }
+
+                &#sixth_card {
+                    width: 141px;
+                    height: 74px;
+                }
+                &#seventh_card{
+                    padding: 0 44px;
+                }
+            }
+
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+
+}
